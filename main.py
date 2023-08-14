@@ -33,7 +33,7 @@ def main():
     st.sidebar.markdown("Text to speech: [espnet/kan-bayashi_ljspeech_vits](https://huggingface.co/espnet/kan-bayashi_ljspeech_vits)")
 
     st.title("Image Story Teller")
-    image_uploaded = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
+    image_uploaded = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg", "webp"])
     # check if the image is uploaded
     if image_uploaded is not None:
         file_path = upload_image(image_uploaded)
