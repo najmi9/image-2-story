@@ -1,6 +1,8 @@
 # Image Story Teller
 
 A simple web application that generates a story from an uploaded image. Built with Streamlit and Huggingface.
+![Screenshot from 2023-08-14 01-05-27](https://github.com/najmi9/image-2-story/assets/61061620/5af934c4-eb19-4763-a16d-64b07574f49c)
+
 
 ## Features
 
